@@ -1,0 +1,70 @@
+body
+{
+	background-image: url("http://cheersbar.com.au/wp-content/uploads/2016/01/CheersBar-Food-76.jpg");
+}
+.content
+{
+	background-color: #E1E9DB;
+	min-height: 1000px;
+}
+.cook-left
+{
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+	position: absolute;
+}
+.cook-top
+{
+	display: inline-block;
+	position: relative;
+}
+
+.cook-right
+{
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+	margin-left: 600px;
+	background-color: #E2E2E2;
+	width: 300px;
+}
+
+.cook-right p
+{
+	font-size: 20px;
+	font-family: 'Ubuntu',sans-serif;
+	color: #202020; 
+}
+
+.cook-b-left
+{
+	display: inline-block;
+	margin:20px;
+	padding: 20px;
+	margin-top: 0px;
+	background-color: #D0D0D0;
+}
+
+.cook-buttom
+{
+	position: relative;
+}
+ul
+{
+	margin: 0px;
+}
+.cook-b-right
+{
+	display: inline-block;
+	background-color: #D0D0D0;
+	padding: 20px;
+	width: 340px;
+	position: absolute;
+	bottom: 355px;
+}
+.cook-b-right li
+{
+	color: black;
+	background-color: #D0D0D0; 
+}

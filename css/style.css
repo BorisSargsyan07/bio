@@ -1,0 +1,336 @@
+.main
+{
+	width: 1000px;
+	border:1px solid #cecece;
+	border-radius: 20px;
+	margin: auto;
+}
+.header
+{
+	height: 200px;
+	background-color: #202020;
+	border-radius: 20px;
+	position: relative;
+
+}
+
+.header_name {
+	margin-top: -110px;
+    color: white;
+    margin-left: -130px;
+    text-align: center;
+}
+.content
+{
+	min-height: 600px;
+	position: relative;
+}
+.footer
+{
+	height: 100px;
+	background-color: #202020;
+	border-radius: 20px;
+	position: relative;
+}
+.pind
+{
+	display: inline-block;
+	color:white;
+}
+.he
+{
+	width: 300px;
+	padding: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 3%;
+	top: 13%;
+}
+.menu ul
+{
+	background-color: #202020;
+	margin: 0px;
+}
+.menu li
+{
+	text-decoration:none;
+	display: inline-block;
+	color: white;
+	padding:15px;
+	border: none; 
+}
+li:hover
+{
+	color: #202020;
+	background-color: white;
+}
+.hj
+{
+	background-color: white;
+	color: #202020;
+}
+img
+{
+	display: inline-block;
+}
+
+.pakogh
+{
+	background-color: #202020;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 0%;
+	display: inline-block;
+}
+.pakogh2
+{
+	background-color: #202020;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0%;
+	display: inline-block;
+}
+#k1
+{
+	position: relative;
+	display: inline-block;
+	text-decoration:none;
+	display: inline-block;
+	border: none;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color:#6B6B6B;
+    width: 215px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-right:20px;
+}
+.dropdown-content a 
+{
+    color: black;
+    background-color: white;
+    padding:15px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    float: left;
+}
+.dropdown-content li
+{
+	color: black;
+}
+.dropdown-content a:hover 
+{
+	background-color: #202020;
+	color: white;
+}
+#k2
+{
+	position: relative;
+	display: inline-block;
+	background-color: #202020;
+	left:5px;
+	margin: 0px;
+	padding: 3px;
+	height: 5px;
+	width: 5px;
+	top: 20px;
+}
+#k2:hover .dropdown-content 
+{
+	display: block;
+}
+#k2 a
+{
+	text-decoration:none;
+	display: inline-block;
+	color: white;
+	border: none;
+}
+a#k1
+{
+	margin: 0px;
+	padding: 0px;
+}
+.top-right
+{
+	width: 400px;
+	height: 362px;
+	float: right;
+	padding:17px;
+	margin: 20px;
+	background-color: #E2E2E2;
+}
+.homep
+{
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #252525; 
+}
+.top-left
+{
+	display: inline-block;
+	margin: 20px 25px 0px 25px;
+}
+.l-bottom
+{
+	margin-top: 10px;
+}
+.l-bottom ul
+{
+	list-style-type: none;
+	margin: 0px;
+	display: inline-block;
+	padding: 0px;
+}
+.l-bottom li
+{
+	display: inline-block;
+}
+.gg
+{
+	margin-left: 11px;
+}
+.c-bottom
+{
+	padding: 10px;
+	margin: 20px;
+	background-color: #E2E2E2;
+}
+.footerp
+{
+	font-size: 15px;
+	font-family: 'Ubuntu',sans-serif;color: #E2E2E2;
+	position: absolute;
+	left: 2%;
+	bottom: 5%;
+}
+.about-left
+{
+	padding: 20px;
+	margin: 30px;
+	margin-left:40px; 
+	display: inline-block;
+}
+.about-right
+{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	position: absolute;
+	right: 8%;
+	top: 23%;
+}
+.about-right p
+{
+	font-size: 25px;
+	font-family: 'Ubuntu',sans-serif;color: #202020; 
+
+}
+.about-c-top
+{
+	position: relative;
+}
+.about-c-mid
+{
+	margin: 20px;
+	padding: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #E2E2E2;
+}
+.about-c-mid p
+{
+	font-family: 'Ubuntu',sans-serif;color: #202020; 
+	font-size: 20px;
+}
+.cont-c-top
+{
+	position: relative;
+}
+.c-top-l
+{
+	width: 410px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #E2E2E2;
+	display: inline-block;
+	position: absolute;
+	top: 0%;
+	border: 1px solid #CBC8C8;
+}
+.c-top-l p
+{
+	font-family: 'Ubuntu',sans-serif;color: #202020; 
+	font-size: 22px;
+}
+.c-top-r
+{
+	display: inline-block;
+	position: absolute;
+	right: 0%;
+	padding: 10px;
+	margin: 10px;
+}
+.cont-c-bottom
+{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	background-color: #E2E2E2;
+	position: absolute;
+	bottom: 13%;
+	left: 1%;
+	width: 430px;
+	border: 1px solid #CBC8C8;
+}
+.html-left
+{
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+}
+.html-right
+{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	width: 570px;
+	position: absolute;
+	top: 0%;
+	background-color: #E2E2E2;
+	
+}
+
+.htmlpic:hover {
+	width: 200%;
+}
+
+.html-top
+{
+	position: relative;
+	
+}
+.html-bottom
+{
+	margin: 20px;
+	padding: 20px;
+	background-color: #E2E2E2;
+
+}
+.html-bottom li
+{
+	margin: 20px;
+	background-color: #E2E2E2;
+	color: black;
+}
+
+.instaIcon 
+{
+	margin: 0 auto;
+}
